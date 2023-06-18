@@ -322,10 +322,15 @@ max-width: 1440px;
     align-items: center; justify-content: center;    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.sending:is(:hover, :focus) {
+.sending:hover {
 background-color: #404bbf;
 border-color: #404bbf;
 color: #404bbf;
+}
+.sending:focus {
+    background-color: #404bbf;
+    border-color: #404bbf;
+    color: #404bbf;
 }
 
 .icons-soc {
